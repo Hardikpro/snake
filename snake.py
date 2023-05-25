@@ -5,7 +5,7 @@ import random
 pygame.init()
 
 black = (0, 0, 0)
-red = (176,0,0)
+red = (248,0,0)
 lite_green = (189,236,182)
 green = (0,69,36)
 snake_block = 10
@@ -15,7 +15,7 @@ win_height = 600
 win = pygame.display.set_mode((win_width, win_height))
 pygame.display.set_caption('Змейка')
 clock = pygame.time.Clock()
-font_style = pygame.font.SysFont("bahnschrift", 25)
+font_style = pygame.font.SysFont("comicsansms", 25)
 score_font = pygame.font.SysFont("comicsansms", 35)
  
 def Your_score(score):
