@@ -70,8 +70,8 @@ def gameLoop():
                 elif event.key == pygame.K_s:
                     y1_change = snake_block
                     x1_change = 0
-                elif event.key == pygame.K_j:
-                    Length_of_snake += 1
+                elif event.key == pygame.K_TAB:
+                    Length_of_snake += 5
         if x1 >= win_width or x1 < 0 or y1 >= win_height or y1 < 0:
             game_close = True
         x1 += x1_change
